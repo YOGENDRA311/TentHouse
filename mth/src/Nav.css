@@ -1,0 +1,28 @@
+.nav {
+  /* background-image: url("http://starutsavevents.com/blog/wp-content/uploads/2019/02/rama_tent_house_wedding_decorators_delhi_15741.jpg"); */
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.nav__menu > img {
+  height: 30px;
+  width: 30px;
+}
+.nav__menu > p {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
